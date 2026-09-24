@@ -1,0 +1,26 @@
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+config.local.*
+
+# Arduino / PlatformIO
+.pio/
+.vscode/
+*.elf
+*.hex
+*.bin
+*.map
+
+# CAD temporary and backup files
+*.bak
+*.tmp
+*.autosave
+~$*
+Thumbs.db
+.DS_Store
+
+# Slicer output
+*.gcode
